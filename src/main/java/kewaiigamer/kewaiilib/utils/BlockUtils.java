@@ -11,6 +11,4 @@ public class BlockUtils {
     public static void registerBlockRender(String modId, Block block, String name) {
         ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation(modId + ":" + name, "inventory"));
     }
-
-
 }

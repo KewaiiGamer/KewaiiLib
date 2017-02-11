@@ -9,6 +9,7 @@
   "updateUrl": "",
   "authorList": ["KewaiiGamer"],
   "credits": "",
+  "logoFile": "logo.png",
   "screenshots": [],
   "dependencies": []
 }
