@@ -1,0 +1,15 @@
+[
+{
+  "modid": "kelib",
+  "name": "KewaiiLib",
+  "description": "A library mod for most KewaiiGamer's mods.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["KewaiiGamer"],
+  "credits": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
