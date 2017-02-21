@@ -1,4 +1,4 @@
-package kewaiigamer.kewaiilib.utils;
+package info.kewaiigamer.kewaiilib.utils;
 
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;

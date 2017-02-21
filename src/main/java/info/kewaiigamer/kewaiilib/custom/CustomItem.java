@@ -1,4 +1,4 @@
-package kewaiigamer.kewaiilib.custom;
+package info.kewaiigamer.kewaiilib.custom;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
@@ -8,9 +8,9 @@ public class CustomItem extends Item {
 
     public CustomItem(String modId, String name, CreativeTabs tab) {
         super();
-        this.setUnlocalizedName(modId + ":" + name);
-        this.setCreativeTab(tab);
-        this.setRegistryName(name);
+        setUnlocalizedName(modId + ":" + name);
+        setCreativeTab(tab);
+        setRegistryName(name);
         GameRegistry.register(this);
     }
 }
