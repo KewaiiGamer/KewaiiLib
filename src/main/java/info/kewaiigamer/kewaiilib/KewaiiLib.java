@@ -3,7 +3,9 @@ package info.kewaiigamer.kewaiilib;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.Instance;
 
-@Mod(modid = Ref.MODID, name = Ref.NAME, version = Ref.VERSION_MAJOR + "." + Ref.VERSION_MINOR + "." + Ref.VERSION_PATCH + "." + Ref.VERSION_BUILD, acceptedMinecraftVersions = Ref.ACCEPTED_VERSIONS)
+import static info.kewaiigamer.kewaiilib.Ref.*;
+
+    @Mod(modid = MODID, name = NAME, version = VERSION_MAJOR + VERSION_MINOR + VERSION_PATCH + VERSION_BUILD, acceptedMinecraftVersions = ACCEPTED_VERSIONS)
 public class KewaiiLib {
 
     @Instance

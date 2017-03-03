@@ -10,7 +10,6 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class CustomBlockContainer extends BlockContainer {
 
-    public TileEntity tileEntity;
     public CustomBlockContainer(String modId, String name, CreativeTabs tab, Material material) {
         super(material);
         setUnlocalizedName(modId + ":" + name);
